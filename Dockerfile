@@ -7,8 +7,8 @@ WORKDIR /usr/share/nginx/html
 # Copy the website files into the container
 COPY ./website/ /usr/share/nginx/html
 
-# Expose port 80 to the host
-EXPOSE 80
+# Expose port 99 to the host
+EXPOSE 99
 
 # Start the Nginx server
 CMD ["nginx", "-g", "daemon off;"]
